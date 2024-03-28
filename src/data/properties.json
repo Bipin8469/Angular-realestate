@@ -1,0 +1,38 @@
+[
+    {
+      "ID": 1,
+      "Name": "Birla Villa 1",
+      "Type": "Vill",
+      "Price": 15000
+    },
+    {
+      "ID": 2,
+      "Name": "Birla Villa 2",
+      "Type": "Vill 1",
+      "Price": 1500
+    },
+    {
+      "ID": 3,
+      "Name": "Birla Villa 3",
+      "Type": "Vill 3",
+      "Price": 15400
+    },
+    {
+      "ID": 4,
+      "Name": "Birla Villa 4",
+      "Type": "Vill 4",
+      "Price": 14000
+    },
+    {
+      "ID": 5,
+      "Name": "Birla Villa 5",
+      "Type": "Vill 5",
+      "Price": 15000
+    },
+    {
+      "ID": 6,
+      "Name": "Birla Villa 6",
+      "Type": "Vill 6",
+      "Price": 16000
+    }
+]

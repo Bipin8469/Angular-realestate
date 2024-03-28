@@ -1,17 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { IProperty } from '../IProperty.interface';
 
 @Component({
   selector: 'app-property-card',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './property-card.component.html',
   styleUrl: './property-card.component.css',
 })
 export class PropertyCardComponent {
-  Property: any = {
-    ID: 1,
-    Name: 'House Name',
-    Type: '3 BHK',
-    Price: 15000,
-  };
+  @Input() property!: IProperty;
 }
